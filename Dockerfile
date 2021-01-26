@@ -1,4 +1,4 @@
-   FROM ibmcom/websphere-liberty:20.0.0.12-wl-full
+   FROM ibmcom/websphere-liberty:ibmcom/websphere-liberty
 
    # Add the application server configuration
    COPY --chown=1001:0  server.xml /config/
