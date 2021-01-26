@@ -7,9 +7,9 @@ public class WebApp1 {
     
     public WebApp1() { }
 
-    public WebApp1(String dato1, String dato2) {
-        this.dato1 = dato1;
-        this.dato2 = dato2;
+    public WebApp1(String d1, String d2) {
+        this.dato1 = d1;
+        this.dato2 = d2;
     }
 
     public void setDato1(String dato) {
