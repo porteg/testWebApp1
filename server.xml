@@ -1,0 +1,12 @@
+<server description="Web-App-1">
+
+    <featureManager>
+      <feature>servlet-3.0</feature>
+    </featureManager>
+   
+   <httpEndpoint id="defaultHttpEndpoint" host="*" httpPort="9080" />
+   
+   <application context-root="webApp1" type="war" id="web-app-1"
+       location="web-app-1_1.0-SNAPSHOT.war" name="web-app-1"/>
+   
+   </server>
