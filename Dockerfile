@@ -1,4 +1,4 @@
-   FROM icr.io/ibm/liberty:20.0.0.12-wl-full
+   FROM ibm/liberty:20.0.0.12-wl-full
 
    # Add the application server configuration
    COPY --chown=1001:0  server.xml /config/
